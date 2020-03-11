@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: _trainOrderSystem - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenove\AppData\Local\Temp\RSPECBA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/_trainOrderSystem.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\_train\_trainOrderSystem\_trainOrderSystem.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenove\AppData\Local\Temp\RSPECBA.tmp" 
+Creating temporary file "C:\Users\Lenove\AppData\Local\Temp\RSPECBB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/_trainOrderSystem.pdb" /debug /machine:I386 /out:"Debug/_trainOrderSystem.exe" /pdbtype:sept 
+.\Debug\_trainOrderSystem.obj
+.\Debug\Order.obj
+.\Debug\StdAfx.obj
+.\Debug\User.obj
+.\Debug\UserService.obj
+.\Debug\Utils.obj
+]
+Creating command line "link.exe @C:\Users\Lenove\AppData\Local\Temp\RSPECBB.tmp"
+<h3>Output Window</h3>
+Compiling...
+_trainOrderSystem.cpp
+D:\_train\_trainOrderSystem\_trainOrderSystem.cpp(95) : error C2660: 'getTicket' : function does not take 0 parameters
+D:\_train\_trainOrderSystem\_trainOrderSystem.cpp(99) : error C2660: 'getTicket' : function does not take 0 parameters
+Error executing cl.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/_trainOrderSystem.bsc"  .\Debug\StdAfx.sbr .\Debug\_trainOrderSystem.sbr .\Debug\Order.sbr .\Debug\User.sbr .\Debug\UserService.sbr .\Debug\Utils.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+_trainOrderSystem.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
